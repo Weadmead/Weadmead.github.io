@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>web-portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Titillium+Web:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div id="scrlbar"></div>
+    <div class="wrapper-global">
+      <div class="content">
+        <header class="header">
+          <div class="container">
+            <div class="header__inner">
+              <div class="header__logo scroll__btn">
+                <a class="header__logo-link lang" key="logo" href="#works"
+                  >Portfolio</a
+                >
+              </div>
+              <nav class="header-menu">
+                <div class="marker"></div>
+                <button class="header-menu__btn">
+                  <span class="header-menu__btn-line"></span>
+                </button>
+                <ul class="header-menu__list">
+                  <li class="header-menu__list-item">
+                    <a
+                      class="header-menu__list-link lang"
+                      key="home"
+                      href="#main"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="header-menu__list-item">
+                    <a
+                      class="header-menu__list-link lang"
+                      key="about"
+                      href="#about"
+                      >About Me</a
+                    >
+                  </li>
+                  <li class="header-menu__list-item">
+                    <a
+                      class="header-menu__list-link lang"
+                      key="services"
+                      href="#services"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="header-menu__list-item">
+                    <a
+                      class="header-menu__list-link lang"
+                      key="works"
+                      href="#works"
+                      >My Works</a
+                    >
+                  </li>
+                  <li class="header-menu__list-item">
+                    <a
+                      class="header-menu__list-link lang"
+                      key="testemonials"
+                      href="#testemonials"
+                      >Testemonials</a
+                    >
+                  </li>
+                  <li class="header-menu__list-item">
+                    <a
+                      class="header-menu__list-link lang"
+                      key="contacts"
+                      href="#contacts"
+                      >Contacts</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div class="translate-box">
+                <button id="ru" class="translate rus-btn">Ru</button>
+                <button id="en" class="translate active eng-btn">En</button>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="main" id="main">
+          <div class="container">
+            <div class="main__inner">
+              <div class="main__info">
+                <h2 class="main__info-name">
+                  <span class="lang fn" key="fn">Rodion</span>
+                  <span class="lang ln" key="ln">Kondakov</span>
+                </h2>
+                <ul class="main__sprite-list">
+                  <li class="sprite-list__item">
+                    <a
+                      class="sprite-git"
+                      href="https://github.com/Weadmead"
+                    ></a>
+                  </li>
+                  <li class="sprite-list__item">
+                    <a
+                      class="sprite-ink"
+                      href="https://www.linkedin.com/in/rodion-kondakov-200720193/"
+                    ></a>
+                  </li>
+                  <li class="sprite-list__item">
+                    <a class="sprite-tw" href="#"></a>
+                  </li>
+                  <li class="sprite-list__item">
+                    <a class="sprite-tg" href="https://t.me/Weadmead"></a>
+                  </li>
+                </ul>
+                <h1 class="main__info-title lang" key="maintle">
+                  Web - developer
+                </h1>
+                <div class="main__info-link">
+                  <a
+                    class="portfolio-link lang"
+                    href="https://drive.google.com/file/d/1BfTYLfWzif7Z--zpn_jHhK3tCiS0hANU/view?usp=sharing"
+                  >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="name-l lang" key="cvbtn">Donwload CV</span>
+                  </a>
+                  <a class="contact-link lang" href="#contacts">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="name-l lang" key="contactbtn">
+                      Contact me</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about page-section" id="about">
+          <div class="container">
+            <h3 class="about__title title">
+              <span class="lang" key="Aboutme">About me</span>
+            </h3>
+            <div class="about__text">
+              <p class="lang" key="abouttext">
+                Hello! My name is Rodion, I’m an aspiring web developer, with no
+                commercial experience, from Ukraine. Specializing in layouts
+                developing of any complexity, and I have the desire to fully
+                explore frontend developing. I’m a self-taught person, so I
+                spend most of my free time practicing and studying new
+                technologies.
+              </p>
+            </div>
+            <div class="about__skills-title lang" key="abskills">Skills</div>
+            <div class="about__skills-inner">
+              <ul class="about__list">
+                <li class="about__list-item">HTML5</li>
+                <li class="about__list-item">CSS3</li>
+                <li class="about__list-item">JS</li>
+                <li class="about__list-item">JQuery</li>
+                <li class="about__list-item">Sass/Scss</li>
+                <li class="about__list-item">Gulp</li>
+                <!-- <li class="about__list-item">Bootstrap</li> -->
+                <li class="about__list-item">BEM</li>
+                <li class="about__list-item">Figma/Photoshop</li>
+                <li class="about__list-item">Git</li>
+                <li class="about__list-item">Flexbox/Grid</li>
+              </ul>
+              <div class="about__img">
+                <div class="about__img-item">
+                  <img src="images/content/html5.svg" alt="html5" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/css3.svg" alt="css3" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/js.png" alt="js" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 20%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/jquery.svg" alt="jquery" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 60%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/sass.svg" alt="sass/scss" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/gulp.svg" alt="gulp" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 50%"></div>
+                  </div>
+                </div>
+                <!-- <div class="about__img-item">
+                  <img src="images/content/bootstrap.svg" alt="bootstrap" />
+                  <span>Skill level</span>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 20%"></div>
+                  </div>
+                </div> -->
+                <div class="about__img-item">
+                  <img src="images/content/git.svg" alt="git" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 40%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/bem.png" alt="БЭМ" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/figma.png" alt="Figma" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="about__img-item">
+                  <img src="images/content/photoshop.png" alt="Photoshop" />
+                  <span class="skill__level lang" key="skilllvl">
+                    Skill level</span
+                  >
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about__cv">
+              <a
+                key="cvbtn"
+                class="about__cv-link lang"
+                href="https://drive.google.com/file/d/1BfTYLfWzif7Z--zpn_jHhK3tCiS0hANU/view?usp=sharing"
+                >Donwload CV</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="services page-section" id="services">
+          <div class="container">
+            <div class="services__title title">
+              <span class="lang" key="servicess">Services</span>
+            </div>
+            <div class="services__inner">
+              <div class="services__item">
+                <h4 class="services__name services__dev lang" key="servdev">
+                  Developing
+                </h4>
+                <p class="services__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, ratione quisquam ut rerum possimus non expedita
+                  excepturi labore, fugiat quae, perspiciatis facere!
+                </p>
+              </div>
+              <div class="services__item">
+                <h4 class="services__name services__tools lang" key="servrew">
+                  Reworking
+                </h4>
+                <p class="services__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, ratione quisquam ut rerum possimus non expedita
+                  excepturi labore, fugiat quae, perspiciatis facere!
+                </p>
+              </div>
+              <div class="services__item">
+                <h4 class="services__name services__cms">CMS</h4>
+                <p class="services__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, ratione quisquam ut rerum possimus non expedita
+                  excepturi labore, fugiat quae, perspiciatis facere!
+                </p>
+              </div>
+              <div class="services__item">
+                <h4 class="services__name services__host lang" key="servhost">
+                  Host
+                </h4>
+                <p class="services__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, ratione quisquam ut rerum possimus non expedita
+                  excepturi labore, fugiat quae, perspiciatis facere! Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                  ratione quisquam ut rerum possimus non expedita excepturi
+                  labore, fugiat quae, perspiciatis facere!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="works page-section" id="works">
+          <div class="container">
+            <div class="works__title title">
+              <span class="lang" key="workss">My works</span>
+            </div>
+            <div class="grid-container">
+              <div class="works__gallery">
+                <div class="works__item">
+                  <div class="works__image">
+                    <a href="#"
+                      ><img
+                        src="https://source.unsplash.com/900x1600/?camera&nature"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="works__gallery">
+                <div class="works__item">
+                  <div class="works__image">
+                    <a href="#"
+                      ><img
+                        src="https://source.unsplash.com/1600x900/?train&nature"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="works__gallery">
+                <div class="works__item">
+                  <div class="works__image">
+                    <a href="#"
+                      ><img
+                        src="https://source.unsplash.com/900x1600/?mountain"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="works__gallery">
+                <div class="works__item">
+                  <div class="works__image">
+                    <a href="#"
+                      ><img
+                        src="https://source.unsplash.com/900x1600/?camera&mountain"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="works__gallery">
+                <div class="works__item">
+                  <div class="works__image">
+                    <a href="#"
+                      ><img
+                        src="https://source.unsplash.com/900x1600/?van"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="works__gallery">
+                <div class="works__item">
+                  <div class="works__image">
+                    <a href="#"
+                      ><img
+                        src="https://source.unsplash.com/1600x900/?nature"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="works__gallery">
+                <div class="works__item">
+                  <div class="works__image">
+                    <a href="#"
+                      ><img
+                        src="https://source.unsplash.com/1600x900/?rope&water&kid"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="works__btn lang" key="worksbtn" href="#">More Works</a>
+          </div>
+        </section>
+
+        <section class="testemonials page-section" id="testemonials">
+          <div class="container">
+            <div class="testemonials__title title">
+              <span class="lang" key="tests">Testemonials</span>
+            </div>
+            <div class="testemonials__slider">
+              <div class="testemonials__box">
+                <img
+                  class="testemonials__author"
+                  src="images/icons/author2.jpg"
+                  alt="author1"
+                />
+                <div class="testemonials__name">Boris</div>
+                <p class="testemonials__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="testemonials__box">
+                <img
+                  class="testemonials__author"
+                  src="images/icons/author2.jpg"
+                  alt="author1"
+                />
+                <div class="testemonials__name">Boris</div>
+                <p class="testemonials__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="testemonials__box">
+                <img
+                  class="testemonials__author"
+                  src="images/icons/author2.jpg"
+                  alt="author1"
+                />
+                <div class="testemonials__name">Boris</div>
+                <p class="testemonials__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="testemonials__box">
+                <img
+                  class="testemonials__author"
+                  src="images/icons/author2.jpg"
+                  alt="author1"
+                />
+                <div class="testemonials__name">Boris</div>
+                <p class="testemonials__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="testemonials__box">
+                <img
+                  class="testemonials__author"
+                  src="images/icons/author2.jpg"
+                  alt="author1"
+                />
+                <div class="testemonials__name">Boris</div>
+                <p class="testemonials__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="testemonials__box">
+                <img
+                  class="testemonials__author"
+                  src="images/icons/author2.jpg"
+                  alt="author1"
+                />
+                <div class="testemonials__name">Boris</div>
+                <p class="testemonials__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- content end  -->
+      </div>
+
+      <footer class="footer" id="contacts">
+        <div class="container">
+          <div class="footer__title title">
+            <span class="lang" key="contacs">Contact me</span>
+          </div>
+          <div class="footer__inner">
+            <div class="footer__contacts">
+              <ul class="footer__list">
+                <li class="footer__link">
+                  <a
+                    class="icon-envelope-o footer__icon"
+                    href="mailto:wead758@gmail.com"
+                    ><span>wead758@gmail.com</span></a
+                  >
+                </li>
+                <li class="footer__link">
+                  <a class="icon-phone footer__icon" href="tel:+380972686234"
+                    ><span>+380972686234</span></a
+                  >
+                </li>
+              </ul>
+              <ul class="main__sprite-list footer__sprite">
+                <li class="sprite-list__item">
+                  <a
+                    class="sprite-ink"
+                    href="https://www.linkedin.com/in/rodion-kondakov-200720193/"
+                  ></a>
+                </li>
+                <li class="sprite-list__item">
+                  <a class="sprite-tw" href="#"></a>
+                </li>
+                <li class="sprite-list__item">
+                  <a class="sprite-tg" href="https://t.me/Weadmead"></a>
+                </li>
+              </ul>
+            </div>
+            <form class="footer__form">
+              <!-- hidden fields -->
+              <input type="hidden" name="project_name" value="Web-portfolio" />
+              <input
+                type="hidden"
+                name="admin_email"
+                value="wead758@gmail.com"
+              />
+              <input type="hidden" name="form_subject" value="footer-form" />
+              <!-- end hidden fields -->
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name..."
+                required
+              />
+              <input
+                type="email"
+                id="mail"
+                name="e-mail"
+                placeholder="Your E-mail..."
+                required
+              />
+              <textarea
+                value="Message"
+                id="msg"
+                name="message"
+                placeholder="Your message...."
+              ></textarea>
+              <button class="form__btn lang" type="submit" key="formbtn">
+                SEND
+              </button>
+              <!-- <input
+                class="form__btn lang"
+                type="submit"
+                value="SEND"                
+              /> -->
+            </form>
+          </div>
+        </div>
+        <div class="footer__copy">
+          Icons made by
+          <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+            Freepik
+          </a>
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/translate.js"></script>
+  </body>
+</html>
